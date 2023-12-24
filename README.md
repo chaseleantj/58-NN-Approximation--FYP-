@@ -8,11 +8,22 @@ Furthermore, theoretical results in Barron (1993) and Xu (2020) show that some t
 
 Therefore, we run some tests and see that in some circumstances, networks with cosine activation can outperform networks with ReLU activation.
 
-## Single Variable Regression
+## Table of contents
+* [Regression](#demo)
+* [Classification](#general-info)
+* [The MNIST dataset](#the-mnist-dataset)
+* [Run the code](#run-the-code)
+* [References](#references)
+
+## Regression
 
 ## Classification
 
-## The MNIST Dataset
+## The MNIST dataset
+
+## Run the code
+
+## References
 
 The code inside the directory `lib` is adapted from the book Neural Networks from Scratch in Python.
 
