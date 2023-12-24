@@ -19,7 +19,7 @@ Therefore, we run some tests on single layer NNs and see that in some circumstan
 
 A single hidden layer NN with 32 nodes was trained with learning rate 0.01 using SGD on 100 data points and 100 epochs.
 
-When the weights are initialized correctly, the cosine activated NN outperforms the ReLU activated NN on fitting a variety of target functions. The example for $x\sin{4\pi x}$ is shown below.
+When the weights are initialized correctly, the cosine activated NN outperforms the ReLU activated NN on fitting a variety of target functions. The example for target function $f(x)=x\sin{4\pi x}$ is shown below.
 
 <img src="fig/relu_regression.jpg" width=600px>
 
