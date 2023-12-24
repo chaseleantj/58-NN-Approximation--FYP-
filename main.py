@@ -35,8 +35,6 @@ model.train(X, y, batch_size=1, epochs=100)
 # test_acc_arr = []
 
 # # MNIST dataset: http://yann.lecun.com/exdb/mnist/
-# # These files are not included in the repository
-# # Download them from the link above and place them inside a directory "data" in the root of the repository
 # X = idx2numpy.convert_from_file("data/train-images.idx3-ubyte")[:int(60000 * sample_ratio)]
 # X = (X.astype(np.float32) - 127.5 ) / 127.5
 # y = idx2numpy.convert_from_file("data/train-labels.idx1-ubyte")[:int(60000 * sample_ratio)]
