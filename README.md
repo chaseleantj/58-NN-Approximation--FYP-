@@ -21,18 +21,17 @@ A single hidden layer NN with 32 nodes was trained with learning rate 0.01 using
 
 When the weights are initialized correctly, the cosine activated NN outperforms the ReLU activated NN on fitting a variety of target functions. The example for $x\sin{4\pi x}$ is shown below.
 
-<img src="fig/relu_regression.jpg" width=500px>
+<img src="fig/relu_regression.jpg" width=600px>
 
 The ReLU network with weights initialized with the standard normal $N(0,1)$ does not fit the function well.
 
-<img src="fig/cos_regression.jpg" width=500px>
+<img src="fig/cos_regression.jpg" width=600px>
 
 The cosine network with weights initialized as $N(0, 10^2)$ and $N(0,0.1^2)$ for the first and second layers respectively gives a much better fit.
 
 These weight initializations (with the specific target function and NN architecture) are optimal among the choices tested (see the figure below).
 
-<img src="fig/relu_heatmap.png" width=500px>
-<img src="fig/cos_heatmap.png" width=500px>
+<img src="fig/heatmap.jpg" width=600px>
 
 The idea behind using different weight initializations is based on <a href="https://www.researchgate.net/publication/3835580_Neural_networks_with_periodic_and_monotonic_activation_functions_a_comparative_study_in_classification_problems">this paper</a> by Sopena et al. (1999).
 
@@ -42,7 +41,7 @@ They investigated suitable initializations for NNs with sine activation instead,
 
 Single hidden layer NNs with similar architecture, except with input dimension 784 and 1024 nodes in the hidden layer were trained to classify digits from the MNIST dataset.
 
-<img src="fig/mnist.png" width=300px>
+<img src="fig/mnist.png" width=150px>
 
 Again, with proper initialization of the weights for the two layers: $N(0, 0.1^2)$, $N(0, 0.01^2)$, the cosine NN outperformed the ReLU NN.
 
