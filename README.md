@@ -6,7 +6,7 @@ However, we can consider other more "exotic" activation functions like the cosin
 
 Furthermore, theoretical results in Barron (1993) and Xu (2020) show that some target functions can be more naturally expressed in terms of cosine functions.
 
-Therefore, we run some tests and see that in some circumstances, networks with cosine activation can outperform networks with ReLU activation.
+Therefore, we run some tests on single layer NNs and see that in some circumstances, networks with cosine activation can outperform networks with ReLU activation.
 
 ## Table of contents
 * [Regression](#demo)
@@ -22,6 +22,10 @@ Therefore, we run some tests and see that in some circumstances, networks with c
 ## The MNIST dataset
 
 ## Run the code
+
+Clone the repository and run `main.py`.
+
+For a more in-depth look at how each component of the neural network functions, run a simplified version inside `demo.py`. The output is identical.
 
 ## References
 
