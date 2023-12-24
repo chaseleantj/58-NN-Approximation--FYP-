@@ -23,11 +23,11 @@ When the weights are initialized correctly, the cosine activated NN outperforms 
 
 <img src="fig/relu_regression.jpg" width=600px>
 
-The ReLU network with weights initialized with the standard normal $N(0,1)$ does not fit the function well.
+From the figure above, the ReLU network with weights initialized with the standard normal $N(0,1)$ does not fit the function well.
 
 <img src="fig/cos_regression.jpg" width=600px>
 
-The cosine network with weights initialized as $N(0, 10^2)$ and $N(0,0.1^2)$ for the first and second layers respectively gives a much better fit.
+From the figure above, the cosine network with weights initialized as $N(0, 10^2)$ and $N(0,0.1^2)$ for the first and second layers respectively gives a much better fit.
 
 These weight initializations (with the specific target function and NN architecture) are optimal among the choices tested (see the figure below).
 
@@ -53,7 +53,7 @@ The cosine activated NNs achieved a mean accuracy of $0.976$ and a standard devi
 
 This difference is statistically significant $(t_{18}=5.647,  p=2.34\times 10^{-5})$.
 
-A similar experiment has been performed by <a href="https://ieeexplore.ieee.org/document/1047806">Wong et al. (2002)</a> before, although they compared sine activation with the logistic sigmoid instead and used a different training technique. nevertheless, they concluded that sinusoidal activation was superior.
+A similar experiment has been performed by <a href="https://ieeexplore.ieee.org/document/1047806">Wong et al. (2002)</a> before, although they compared sine activation with the logistic sigmoid instead and used a different training technique. Nevertheless, they concluded that sinusoidal activation was superior.
 
 ## Run the code
 
