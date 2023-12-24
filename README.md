@@ -4,7 +4,7 @@ Neural networks (NN) can have different activation functions. By far the most co
 
 However, we can consider other more "exotic" activation functions like the cosine.
 
-The cosine is chosen because results in <a href="https://ieeexplore.ieee.org/document/256500">Barron (1993)</a> and <a href="https://pure.psu.edu/en/publications/finite-neuron-method-and-convergence-analysis">Xu (2020)</a> show that some target functions with lower frequency components can be more naturally expressed in terms of cosine functions, and hence, can be well approximated by NNs with cosine activation.
+The cosine is chosen because theoretical results in <a href="https://ieeexplore.ieee.org/document/256500">Barron (1993)</a> and <a href="https://pure.psu.edu/en/publications/finite-neuron-method-and-convergence-analysis">Xu (2020)</a> show that some target functions with lower frequency components can be more naturally expressed in terms of cosine functions, and hence, can be well approximated by NNs with cosine activation.
 
 Therefore, we run some tests on single layer NNs and see that in some circumstances, networks with cosine activation can indeed outperform networks with ReLU activation.
 
@@ -45,7 +45,7 @@ Single hidden layer NNs with similar architecture, except with input dimension 7
 
 Again, with proper initialization of the weights for the two layers: $N(0, 0.1^2)$, $N(0, 0.01^2)$, the cosine NN outperformed the ReLU NN.
 
-Each network was trained and evaluated 10 times.
+Each network was trained with batch size 32 for 20 epochs and then evaluated. The process was repeated 10 times.
 
 The mean test accuracy for the NNs with ReLU activation is $0.973$, with a standard deviation of $1.197\times 10^{-3}$. 
 
