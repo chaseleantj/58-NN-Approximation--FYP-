@@ -4,7 +4,7 @@ Neural networks (NN) can have different activation functions. By far the most co
 
 However, we can consider other more "exotic" activation functions like the cosine.
 
-Furthermore, theoretical results in <a href="https://ieeexplore.ieee.org/document/256500">Barron (1993)</a> and <a href="https://pure.psu.edu/en/publications/finite-neuron-method-and-convergence-analysis">Xu (2020)</a> show that some target functions can be more naturally expressed in terms of cosine functions.
+The cosine is chosen because results in <a href="https://ieeexplore.ieee.org/document/256500">Barron (1993)</a> and <a href="https://pure.psu.edu/en/publications/finite-neuron-method-and-convergence-analysis">Xu (2020)</a> show that some target functions can be more naturally expressed in terms of cosine functions.
 
 Therefore, we run some tests on single layer NNs and see that in some circumstances, networks with cosine activation can indeed outperform networks with ReLU activation.
 
