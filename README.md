@@ -29,6 +29,6 @@ For a more in-depth look at how each component of the neural network functions, 
 
 ## References
 
-The code inside the directory `lib` is adapted from the book Neural Networks from Scratch in Python.
+The code inside the directory `lib` is adapted from the book <a href="https://nnfs.io/">Neural Networks from Scratch in Python</a>.
 
-The MNIST dataset in the directory `data` was downloaded from the following source:
+The MNIST dataset in the directory `data` was downloaded from the following source: <a href="http://yann.lecun.com/exdb/mnist/">http://yann.lecun.com/exdb/mnist/</a>.
