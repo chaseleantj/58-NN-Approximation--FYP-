@@ -53,6 +53,8 @@ The cosine activated NNs achieved a mean accuracy of $0.976$ and a standard devi
 
 This difference is statistically significant $(t_{18}=5.647,  p=2.34\times 10^{-5})$.
 
+A similar experiment has been performed by <a href="https://ieeexplore.ieee.org/document/1047806">Wong et al. (2002)</a> before, although they compared sine activation with the logistic sigmoid instead and used a different training technique. nevertheless, they concluded that sinusoidal activation was superior.
+
 ## Run the code
 
 Clone the repository and run `main.py`.
