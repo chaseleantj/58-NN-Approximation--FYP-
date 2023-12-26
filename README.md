@@ -29,7 +29,7 @@ From the figure above, the ReLU network with weights initialized with the standa
 
 From the figure above, the cosine network with weights initialized as $N(0, 10^2)$ and $N(0,0.1^2)$ for the first and second layers respectively gives a much better fit.
 
-These weight initializations (with the specific target function and NN architecture) are optimal among the choices tested (see the figure below).
+The average loss (over 10 trials) for different weight initializations for NNs of the same architecture and target function are compared below.
 
 <img src="fig/heatmap.jpg" width=600px>
 
