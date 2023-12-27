@@ -128,13 +128,12 @@ epochs = 100
 learning_rate = 0.01
 n_samples = 100
 
-# Target function e^(-x^2)
 x = np.linspace(0, 1, n_samples).reshape(-1, 1)
-# y = np.exp(- x ** 2)
+y = np.exp(- 50 * (x - 0.5) ** 2)
 
 # Other possible target functions
 # y = 2 * x + 1
-y = x * np.sin(4 * np.pi * x)
+# y = x * np.sin(4 * np.pi * x)
 # y = np.piecewise(x, [x < 0.5, x >= 0.5], [lambda x: x, lambda x: 0.5-np.sin(8*np.pi*x)])
 # y = 2 * np.sqrt(1 - x ** 2)
 # y = np.piecewise(x, [x < 0, x >= 0], [lambda x: 0, lambda x: 1])
@@ -142,10 +141,10 @@ y = x * np.sin(4 * np.pi * x)
 train_network(
     x=x, 
     y=y, 
-    w1_sd=1, 
-    w2_sd=1, 
+    w1_sd=10, 
+    w2_sd=0.1, 
     epochs=epochs,
     learning_rate=learning_rate,
-    activation_type='relu', 
+    activation_type='cos', 
     plot=True
 )

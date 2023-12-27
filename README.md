@@ -19,17 +19,17 @@ Therefore, we run some tests on single layer NNs and see that in some circumstan
 
 A single hidden layer NN with 32 nodes was trained with learning rate 0.01 using SGD on 100 data points and 100 epochs.
 
-When the weights are initialized correctly, the cosine activated NN outperforms the ReLU activated NN on fitting a variety of target functions. The example for target function $f(x)=x\sin{4\pi x}$ is shown below.
+When the weights are initialized correctly, the cosine activated NN outperforms the ReLU activated NN on fitting a variety of target functions. The example for target function $f(x)=e^{-50(x-1/2)^{2}}$ is shown as follows.
+
+From the figure below, the ReLU network with weights initialized with the standard normal $N(0,1)$ does not fit the function well.
 
 <img src="fig/relu_regression.jpg" width=600px>
 
-From the figure above, the ReLU network with weights initialized with the standard normal $N(0,1)$ does not fit the function well.
+From the figure below, the cosine network with weights initialized as $N(0, 10^2)$ and $N(0,0.1^2)$ for the first and second layers respectively gives a much better fit.
 
 <img src="fig/cos_regression.jpg" width=600px>
 
-From the figure above, the cosine network with weights initialized as $N(0, 10^2)$ and $N(0,0.1^2)$ for the first and second layers respectively gives a much better fit.
-
-The average loss (over 10 trials) for different weight initializations for NNs of the same architecture and target function are compared below.
+The weight initializations used above are optimal among those compared. The average loss (over 10 trials) for different weight initializations for NNs of the same architecture and target function are as follows:
 
 <img src="fig/heatmap.jpg" width=600px>
 
