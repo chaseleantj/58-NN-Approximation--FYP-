@@ -65,4 +65,4 @@ For a more in-depth look at how each component of the neural network functions, 
 
 The code inside the directory `lib` is adapted from the book <a href="https://nnfs.io/">Neural Networks from Scratch in Python</a>.
 
-The MNIST dataset in the directory `data` was downloaded from the following source: <a href="http://yann.lecun.com/exdb/mnist/">http://yann.lecun.com/exdb/mnist/</a>.
+The MNIST dataset inside the directory `data` was downloaded from the following source: <a href="http://yann.lecun.com/exdb/mnist/">http://yann.lecun.com/exdb/mnist/</a>.
