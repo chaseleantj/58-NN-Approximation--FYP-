@@ -2,7 +2,7 @@
 
 Neural networks (NN) can have different activation functions. By far the most common activation function is the rectified linear unit (ReLU).
 
-However, we can consider other more "exotic" activation functions like the cosine.
+However, we can consider other more "exotic" activation functions like the cosine function.
 
 The cosine is chosen because theoretical results in <a href="https://ieeexplore.ieee.org/document/256500">Barron (1993)</a> and <a href="https://pure.psu.edu/en/publications/finite-neuron-method-and-convergence-analysis">Xu (2020)</a> show that some target functions with lower frequency components can be more naturally expressed in terms of cosine functions, and hence, can be well approximated by NNs with cosine activation.
 
